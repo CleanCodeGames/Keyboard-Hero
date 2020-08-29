@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{D3966803-A20B-4FDA-ADE9-129523131464}</ProjectGuid>
+    <RootNamespace>KeyboardHero</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level1</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>D:\SFML-2.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>SFML_STATIC</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>sfml-graphics-s-d.lib;sfml-window-s-d.lib;sfml-system-s-d.lib;sfml-audio-s-d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:\SFML-2.0\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level1</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>false</SDLCheck>
+      <AdditionalIncludeDirectories>C:\SFML-2.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>SFML_STATIC</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>C:\SFML-2.0\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>sfml-graphics-s.lib;sfml-window-s.lib;sfml-system-s.lib;sfml-audio-s.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="Bangs.h" />
+    <ClInclude Include="BonusBarLogo.h" />
+    <ClInclude Include="Boss_2.h" />
+    <ClInclude Include="Boss_3.h" />
+    <ClInclude Include="Boss_4.h" />
+    <ClInclude Include="Boss_5.h" />
+    <ClInclude Include="CheckBox.h" />
+    <ClInclude Include="Level_22.h" />
+    <ClInclude Include="Level_23.h" />
+    <ClInclude Include="Level_24.h" />
+    <ClInclude Include="Level_26.h" />
+    <ClInclude Include="Level_27.h" />
+    <ClInclude Include="Level_28.h" />
+    <ClInclude Include="Level_29.h" />
+    <ClInclude Include="Level_30.h" />
+    <ClInclude Include="Level_31.h" />
+    <ClInclude Include="Level_32.h" />
+    <ClInclude Include="Level_33.h" />
+    <ClInclude Include="Level_34.h" />
+    <ClInclude Include="Level_35.h" />
+    <ClInclude Include="Level_36.h" />
+    <ClInclude Include="Level_37.h" />
+    <ClInclude Include="Level_38.h" />
+    <ClInclude Include="Level_39.h" />
+    <ClInclude Include="Level_40.h" />
+    <ClInclude Include="Level_41.h" />
+    <ClInclude Include="Level_42.h" />
+    <ClInclude Include="Level_43.h" />
+    <ClInclude Include="Level_44.h" />
+    <ClInclude Include="Level_45.h" />
+    <ClInclude Include="Level_End.h" />
+    <ClInclude Include="Laser.h" />
+    <ClInclude Include="LastKey.h" />
+    <ClInclude Include="Level_1.h" />
+    <ClInclude Include="Level_20.h" />
+    <ClInclude Include="Level_21.h" />
+    <ClInclude Include="Level_25.h" />
+    <ClInclude Include="Level_8.h" />
+    <ClInclude Include="Level_13.h" />
+    <ClInclude Include="Level_Test.h" />
+    <ClInclude Include="Locust.h" />
+    <ClInclude Include="Meteor.h" />
+    <ClInclude Include="oClouds.h" />
+    <ClInclude Include="FloatCost.h" />
+    <ClInclude Include="FloatSphere.h" />
+    <ClInclude Include="Level_3.h" />
+    <ClInclude Include="Level_2.h" />
+    <ClInclude Include="Level_4.h" />
+    <ClInclude Include="oSpecEffect.h" />
+    <ClInclude Include="KeyKillEffectEpic.h" />
+    <ClInclude Include="KeyKillEffectFire.h" />
+    <ClInclude Include="KeyKillEffectFrost.h" />
+    <ClInclude Include="KeyKillEffectNature.h" />
+    <ClInclude Include="Level_11.h" />
+    <ClInclude Include="MenuInterface_Flour.h" />
+    <ClInclude Include="BonusBar.h" />
+    <ClInclude Include="oBackGround.h" />
+    <ClInclude Include="oKeyKillEffect.h" />
+    <ClInclude Include="oMenuInterface.h" />
+    <ClInclude Include="MainMenu.h" />
+    <ClInclude Include="oButton.h" />
+    <ClInclude Include="oKeyMove.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="oPortal.h" />
+    <ClInclude Include="PauseMenu.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="Scroller.h" />
+    <ClInclude Include="Shines.h" />
+    <ClInclude Include="Sounds.h" />
+    <ClInclude Include="Spider.h" />
+    <ClInclude Include="System.h" />
+    <ClInclude Include="Texture.h" />
+    <ClInclude Include="Training.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Boss_1.h" />
+    <ClCompile Include="oBoss.h" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="KeyKillEffectBlack.h" />
+    <ClCompile Include="KeyKillEffectWhite.h" />
+    <ClCompile Include="Level_5.h" />
+    <ClCompile Include="Level_12.h" />
+    <ClCompile Include="Level_16.h" />
+    <ClCompile Include="Level_19.h" />
+    <ClCompile Include="Level_15.h" />
+    <ClCompile Include="Level_6.h" />
+    <ClCompile Include="Level_18.h" />
+    <ClCompile Include="Level_7.h" />
+    <ClCompile Include="Level_17.h" />
+    <ClCompile Include="Level_9.h" />
+    <ClCompile Include="Level_14.h" />
+    <ClCompile Include="Level_10.h" />
+    <ClCompile Include="MainMenu.cpp" />
+    <ClCompile Include="oLevel.h" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="oStar.h" />
+    <ClCompile Include="System.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

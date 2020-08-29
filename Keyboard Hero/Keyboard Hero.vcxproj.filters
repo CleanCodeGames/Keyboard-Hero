@@ -1,0 +1,348 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Файлы исходного кода">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Заголовочные файлы">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="MainMenu">
+      <UniqueIdentifier>{8524fb23-0e08-4d4d-b6b1-9bcdcb55f70d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainMenu\Buttons">
+      <UniqueIdentifier>{fd43d8dc-1d96-4b62-b0cd-add446cd7415}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainMenu\Menu Interface">
+      <UniqueIdentifier>{ffad8f82-eb52-4306-8527-06db76f72929}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Levels">
+      <UniqueIdentifier>{5ea3c810-e2a6-49a4-88ce-c6aed39df70e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BackGround">
+      <UniqueIdentifier>{db625902-21f4-4835-a27e-14f9cc0a5ac0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LevelObjects">
+      <UniqueIdentifier>{5e402693-00f0-4cec-bc59-3273444bd6d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LevelObjects\Portals">
+      <UniqueIdentifier>{5084bc9b-56f3-42e0-9d1d-a992f1f53dba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LevelObjects\Effects">
+      <UniqueIdentifier>{707b1100-b0fd-4a74-8652-6eb1c368a9f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LevelObjects\BonusBar">
+      <UniqueIdentifier>{9670c2bb-c989-4a88-9d7f-4bf43d8e2e0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PauseMenu">
+      <UniqueIdentifier>{7704434b-045d-4ce6-8f6a-d5ebf1b7fda7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LevelObjects\Boss">
+      <UniqueIdentifier>{f1b0fc62-038b-4586-8b35-000a37917f64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LevelObjects\Effects\Key">
+      <UniqueIdentifier>{e2279cf9-41e5-47a8-90a7-68489d04eca7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Levels\Other">
+      <UniqueIdentifier>{b6e879bc-58b1-4dbb-8341-18185f3bb100}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Game.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="System.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenu.h">
+      <Filter>MainMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="oBackGround.h">
+      <Filter>BackGround</Filter>
+    </ClInclude>
+    <ClInclude Include="oClouds.h">
+      <Filter>BackGround</Filter>
+    </ClInclude>
+    <ClInclude Include="Scroller.h">
+      <Filter>MainMenu\Menu Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="oKeyKillEffect.h">
+      <Filter>LevelObjects\Effects\Key</Filter>
+    </ClInclude>
+    <ClInclude Include="BonusBarLogo.h">
+      <Filter>LevelObjects\BonusBar</Filter>
+    </ClInclude>
+    <ClInclude Include="Laser.h">
+      <Filter>LevelObjects\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyKillEffectEpic.h">
+      <Filter>LevelObjects\Effects\Key</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyKillEffectFire.h">
+      <Filter>LevelObjects\Effects\Key</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyKillEffectFrost.h">
+      <Filter>LevelObjects\Effects\Key</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyKillEffectNature.h">
+      <Filter>LevelObjects\Effects\Key</Filter>
+    </ClInclude>
+    <ClInclude Include="oKeyMove.h">
+      <Filter>LevelObjects\Effects\Key</Filter>
+    </ClInclude>
+    <ClInclude Include="FloatCost.h">
+      <Filter>LevelObjects\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="FloatSphere.h">
+      <Filter>LevelObjects\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="BonusBar.h">
+      <Filter>LevelObjects\BonusBar</Filter>
+    </ClInclude>
+    <ClInclude Include="oPortal.h">
+      <Filter>LevelObjects\Portals</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuInterface_Flour.h">
+      <Filter>MainMenu\Menu Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="oMenuInterface.h">
+      <Filter>MainMenu\Menu Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="PauseMenu.h">
+      <Filter>PauseMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="Sounds.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="Bangs.h">
+      <Filter>LevelObjects\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="CheckBox.h">
+      <Filter>MainMenu\Menu Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="oButton.h">
+      <Filter>MainMenu\Buttons</Filter>
+    </ClInclude>
+    <ClInclude Include="Boss_2.h">
+      <Filter>LevelObjects\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="Spider.h">
+      <Filter>LevelObjects\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="LastKey.h">
+      <Filter>BackGround</Filter>
+    </ClInclude>
+    <ClInclude Include="Boss_3.h">
+      <Filter>LevelObjects\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="Locust.h">
+      <Filter>LevelObjects\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="Boss_4.h">
+      <Filter>LevelObjects\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="Shines.h">
+      <Filter>LevelObjects\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="Meteor.h">
+      <Filter>LevelObjects\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="Level_Test.h">
+      <Filter>Levels\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="oSpecEffect.h">
+      <Filter>LevelObjects\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="Level_1.h">
+      <Filter>Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="Level_11.h">
+      <Filter>Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="Level_13.h">
+      <Filter>Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="Level_2.h">
+      <Filter>Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="Level_3.h">
+      <Filter>Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="Level_4.h">
+      <Filter>Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="Level_8.h">
+      <Filter>Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="Training.h">
+      <Filter>Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="Level_20.h">
+      <Filter>Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="Level_21.h">
+      <Filter>Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="Level_End.h">
+      <Filter>Levels\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="Level_25.h">
+      <Filter>Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="Level_22.h">
+      <Filter>Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="Level_23.h">
+      <Filter>Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="Level_24.h">
+      <Filter>Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="Boss_5.h">
+      <Filter>LevelObjects\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="Level_37.h">
+      <Filter>Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="Level_38.h">
+      <Filter>Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="Level_39.h">
+      <Filter>Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="Level_40.h">
+      <Filter>Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="Level_41.h">
+      <Filter>Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="Level_42.h">
+      <Filter>Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="Level_43.h">
+      <Filter>Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="Level_44.h">
+      <Filter>Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="Level_45.h">
+      <Filter>Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="Level_26.h">
+      <Filter>Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="Level_27.h">
+      <Filter>Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="Level_28.h">
+      <Filter>Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="Level_29.h">
+      <Filter>Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="Level_30.h">
+      <Filter>Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="Level_31.h">
+      <Filter>Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="Level_32.h">
+      <Filter>Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="Level_33.h">
+      <Filter>Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="Level_34.h">
+      <Filter>Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="Level_35.h">
+      <Filter>Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="Level_36.h">
+      <Filter>Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="System.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenu.cpp">
+      <Filter>MainMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyKillEffectBlack.h">
+      <Filter>LevelObjects\Effects\Key</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyKillEffectWhite.h">
+      <Filter>LevelObjects\Effects\Key</Filter>
+    </ClCompile>
+    <ClCompile Include="oStar.h">
+      <Filter>BackGround</Filter>
+    </ClCompile>
+    <ClCompile Include="Boss_1.h">
+      <Filter>LevelObjects\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="oBoss.h">
+      <Filter>LevelObjects\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="oLevel.h">
+      <Filter>Levels\Other</Filter>
+    </ClCompile>
+    <ClCompile Include="Level_10.h">
+      <Filter>Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="Level_12.h">
+      <Filter>Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="Level_14.h">
+      <Filter>Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="Level_15.h">
+      <Filter>Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="Level_5.h">
+      <Filter>Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="Level_9.h">
+      <Filter>Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="Level_6.h">
+      <Filter>Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="Level_7.h">
+      <Filter>Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="Level_16.h">
+      <Filter>Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="Level_17.h">
+      <Filter>Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="Level_18.h">
+      <Filter>Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="Level_19.h">
+      <Filter>Levels</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
